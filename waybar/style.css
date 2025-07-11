@@ -1,0 +1,155 @@
+@import "mocha.css";
+
+* {
+  font-family: FantasqueSansMono Nerd Font;
+  font-size: 17px;
+  min-height: 0;
+}
+
+#waybar {
+  background:transparent;
+  color: @text;
+  margin: 5px 5px;
+}
+
+#bluetooth{
+  background:@surface0;  
+  color: @primary;
+  border-radius: 0px 1rem 1rem 0px;
+  margin-right: 1rem;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding:0px 4px 0px 4px;
+}
+
+#bluetooth:hover {
+  background:@primary;
+  color:@accent;
+}
+
+#workspaces {
+  border-radius: 1rem;
+  margin: 5px;
+  background-color: @surface0;
+  margin-left: 1rem;
+}
+
+#workspaces button {
+  color: @secondary;
+  border-radius: 1rem;
+  padding: 0.4rem;
+}
+
+#workspaces button.active {
+  color: @primary;
+  border-radius: 1rem;
+}
+
+#workspaces button:hover {
+  color: @accent;
+  background-color: @primary;
+  border-radius: 1rem;
+}
+
+#custom-music,
+#tray,
+#backlight,
+#clock,
+#battery,
+#pulseaudio,
+#custom-lock,
+#memory,
+#custom-power {
+  background-color: @surface0;
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
+}
+#custom-power:hover{
+  background-color: @primary;
+  color: @accent;
+}
+#memory,
+#clock {
+  color: @primary;
+}
+#memory:hover,
+#clock:hover{
+  background-color: @primary;
+  color: @accent;
+}
+
+
+#battery {
+  color: @green;
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @red;
+}
+
+#battery:hover{
+  color: @accent;
+  background-color: @primary;
+}
+
+#backlight {
+  color: @yellow;
+}
+
+#backlight, #battery {
+    border-radius: 0;
+}
+
+#pulseaudio {
+  color: @primary;
+  border-radius: 1rem 0px 0px 1rem;
+  margin-left: 1rem;
+}
+
+#pulseaudio:hover{
+  color: @accent;
+  background-color: @primary;
+}
+
+#window {
+  margin-top: 5px;
+  color: @primary;
+  background-color: @surface0;
+  padding: 5px;
+  border-radius: 1rem;
+}
+
+#window:hover {
+  color: @accent;
+  background-color: @primary;
+}
+
+#custom-lock {
+    border-radius: 1rem 0px 0px 1rem;
+    color: @primary;
+}
+
+#custom-lock:hover {
+  color:@accent;
+  background-color:@primary;
+}
+
+#custom-power {
+    margin-right: 1rem;
+    border-radius: 0px 1rem 1rem 0px;
+    color: @red;
+}
+
+#custom-power:hover {
+  color:@accent;
+  background-color: @primary;
+}
+
+#tray {
+  margin-right: 1rem;
+  border-radius: 1rem;
+}

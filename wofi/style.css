@@ -1,0 +1,35 @@
+@define-color surface0 #7549a1;
+@define-color primary #fcdefd;
+@define-color secondary #c44f8f;
+@define-color accent #ce4b46;
+@define-color text #ce4b46;
+
+
+window {
+margin: -20px;
+background: linear-gradient(
+  180deg,
+  rgba(117, 73, 161, 1),
+  rgba(206, 75, 70, 0.5)
+  );
+}
+#outer-box{
+  border:solid transparent ;
+  border-width: 4px 8px 4px 8px;
+  border-radius:1rem;
+  border-color:@primary;
+  );
+}
+
+#input{
+  color: @primary;
+  border: 2px solid;
+  border-color: @surface0;
+}
+#text:selected,
+#entry:selected{
+  color: @text;
+  text-color: @text;
+  background: @primary;
+}
+
