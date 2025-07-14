@@ -107,3 +107,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias initcpp='cp -r ~/.config/VScode_templates/cpp_template/.vscode "$PWD"'
