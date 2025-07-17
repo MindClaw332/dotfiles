@@ -74,7 +74,7 @@
     },
     "custom/lock": {
         "tooltip": false,
-        "on-click": "hyprlock",
+        "on-click": "systemctl suspend",
         "format": "",
     },
     "custom/power": {
