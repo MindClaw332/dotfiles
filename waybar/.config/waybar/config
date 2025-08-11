@@ -25,7 +25,7 @@
         "spacing": 10
     },
     "memory":{
-        "format":" {percentage}%",
+        "format":" {percentage}%",
         "on-click": "ghostty -e 'btop'",
     },
     "custom/music": {
@@ -45,7 +45,7 @@
         "timezone": "Europe/Brussels",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": " {:%d/%m/%Y}",
-        "format": " {:%H:%M}"
+        "format": " {:%H:%M}"
     },
     "backlight": {
         "device": "intel_backlight",
