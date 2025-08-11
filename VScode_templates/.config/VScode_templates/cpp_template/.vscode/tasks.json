@@ -17,7 +17,7 @@
 				"-std=c++17",
 				"${workspaceFolder}/*.cpp",
 				"-o",
-				"${fileDirname}/${fileBasenameNoExtension}"
+				"${fileDirname}/output/${fileBasenameNoExtension}"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
