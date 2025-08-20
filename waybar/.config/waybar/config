@@ -14,10 +14,10 @@
          "warp-on-scroll": false,
          "format": "{name}: {icon}",
          "format-icons": {
-            "active": "",
-            "urgent": "",
-            "focused": "",
-            "default": ""
+            "active": " ",
+            "urgent": " ",
+            "focused": " ",
+            "default": " "
          }
      },
     "tray": {
@@ -80,10 +80,10 @@
     "custom/power": {
         "tooltip": false,
         "on-click": "shutdown -h now",
-        "format": ""
+        "format": ""
     },
     "bluetooth": {
-        "format":" {status} |  {num_connections}",
+        "format":" {status} |   {num_connections} ",
         "on-click": "ghostty -e 'bluetui'" ,
         "tooltip":true,
         "tooltip-format":"{device_alias}",
