@@ -72,7 +72,6 @@ ZSH_THEME="bureau"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  simple
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
